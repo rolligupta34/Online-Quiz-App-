@@ -1,30 +1,31 @@
-# 🎯 MERN Quiz Application
+# 🎯 Online Quiz App
 
-A full-stack **Online Quiz Management System** built using the **MERN Stack (MongoDB, Express.js, React.js, Node.js)**.
-This platform allows users to register, attempt quizzes, view results, and enables admins to manage quizzes, questions, users, and analytics.
+A full-stack **MERN Quiz Application** built using **MongoDB, Express.js, React.js, and Node.js**.
+This platform allows users to register, attend quizzes, view results, and enables admins to manage quizzes, questions, users, and analytics.
 
 ---
 
 ## 📌 Project Overview
 
-The MERN Quiz Application is designed to digitize the quiz/test process with real-time scoring and role-based access.
+The Online Quiz App is designed to simplify the quiz and assessment process through a modern web application. It provides secure authentication, real-time result calculation, and role-based access for users and admins.
 
-### 👨‍🎓 User Side:
+### 👨‍🎓 User Features
 
-* Register / Login
-* View available quizzes
-* Attempt quizzes
-* Submit answers
-* View results & scores
+* User Registration & Login
+* Browse Available Quizzes
+* Attempt Quizzes
+* Submit Answers
+* View Results & Scores
+* Manage Profile
 
-### 👨‍💼 Admin Side:
+### 👨‍💼 Admin Features
 
-* Secure admin login
-* Create quizzes
-* Add / Edit / Delete questions
-* Manage users
-* Track quiz performance
-* View analytics dashboard
+* Admin Login
+* Create New Quizzes
+* Add / Edit / Delete Questions
+* Manage Users
+* View Quiz Results
+* Dashboard Analytics
 
 ---
 
@@ -35,8 +36,7 @@ The MERN Quiz Application is designed to digitize the quiz/test process with rea
 * React.js
 * Vite
 * JavaScript (ES6+)
-* CSS / Tailwind CSS (if used)
-* Axios / Fetch API
+* CSS
 
 ### Backend
 
@@ -48,30 +48,30 @@ The MERN Quiz Application is designed to digitize the quiz/test process with rea
 * MongoDB
 * Mongoose
 
-### Authentication & Security
+### Authentication
 
 * JWT (JSON Web Token)
-* Protected Routes
-* Role-Based Access Control
 
 ---
 
 ## 🏗️ Project Architecture
 
-Client (React Frontend)
-⬇
-REST API (Express Backend)
-⬇
+```text
+User Interface (React Frontend)
+        ↓
+REST API (Node.js + Express.js)
+        ↓
 MongoDB Database
+```
 
-The frontend communicates with backend APIs, and the backend processes business logic while storing/retrieving data from MongoDB.
+The frontend communicates with backend APIs, and the backend handles business logic while storing data in MongoDB.
 
 ---
 
 ## 📂 Folder Structure
 
 ```bash
-project-root/
+Online-Quiz-App/
 │── frontend/
 │   ├── src/
 │   ├── components/
@@ -103,7 +103,7 @@ project-root/
 
 ## 🔧 Backend Modules
 
-### Routes
+### API Routes
 
 * `/api/auth`
 * `/api/user`
@@ -148,14 +148,14 @@ project-root/
 
 ## 🚀 Installation & Setup
 
-### 1️⃣ Clone Repository
+### 1. Clone Repository
 
 ```bash
-git clone https://github.com/yourusername/your-repo-name.git
-cd your-repo-name
+git clone https://github.com/rolligupta34/Online-Quiz-App-.git
+cd Online-Quiz-App-
 ```
 
-### 2️⃣ Setup Backend
+### 2. Setup Backend
 
 ```bash
 cd backend
@@ -163,7 +163,7 @@ npm install
 npm start
 ```
 
-### 3️⃣ Setup Frontend
+### 3. Setup Frontend
 
 ```bash
 cd frontend
@@ -175,7 +175,7 @@ npm run dev
 
 ## 🔑 Environment Variables
 
-Create a `.env` file inside backend:
+Create a `.env` file inside backend folder:
 
 ```env
 MONGO_URI=your_mongodb_connection_string
@@ -185,32 +185,27 @@ PORT=5000
 
 ---
 
-## 📸 Screenshots
+## 🌟 Key Highlights
 
-* Home Page
-* 
-* User Login
-* Quiz Dashboard
-* Quiz Attempt
-* Result Page
+* Full MERN Stack Project
+* Secure JWT Authentication
+* Role-Based Access Control
 * Admin Dashboard
-* Add Quiz Page
-* Analytics Page
-
-(Add screenshots here)
+* Quiz Management System
+* Real-time Score Evaluation
+* Responsive User Interface
 
 ---
-
-
 
 ## 🔮 Future Enhancements
 
-* Timer-based quizzes
-* Leaderboard system
-* Email notifications
-* Certificate generation
-* Dark mode UI
-* AI-generated questions
+* Timer Based Quizzes
+* Leaderboard System
+* Email Notifications
+* Certificate Generation
+* Dark Mode
+* AI Generated Questions
 
 ---
+
 
